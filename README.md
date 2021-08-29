@@ -1,4 +1,6 @@
 # Reconstructed_TROPOMI_SIF
-GPP VPM v2.0 simulation of global GPP using the NCEP reanalysis II considering C3 and C4 difference
+This contains the code for generating the RTSIF dataset and training the XGBoost model
 
-## submodules
+## code for data preparation
+### Data preparation
+The code InputData_Preparation.m was used to calculate the 8-day mean value of MODIS and CERES data as input data.
